@@ -17,10 +17,17 @@ ul.appendChild(li);
 var headerText = document.createTextNode('This is the header text!');
 var listItemText = document.createTextNode('This is the list item');
 
-
 header.appendChild(headerText);
 li.appendChild(listItemText);
 
 
 header.classList.add('blue');
+header.classList.add('text-center');
+
+var link = document.createElement('a');
+var linkListItem = document.createElement('li');
+
+
+
+
 console.log(pageBody);
