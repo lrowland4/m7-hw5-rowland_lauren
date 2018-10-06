@@ -34,7 +34,10 @@ ul.appendChild(linkListItem);
 var linkText = document.createTextNode('This is my link!');
 link.appendChild(linkText);
 
-link.href = "https://www.google.com"
+link.href = "https://www.google.com";
+
+var notLinkListItem = linkListItem.previousElementSibling;
+notLinkListItem.classList.add('orange');
 
 console.log(pageBody);
 
